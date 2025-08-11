@@ -136,6 +136,9 @@
     <Filter Include="Resource Files\engine\font\min">
       <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{e2472e26-9fed-4cb0-98b6-957fbcda75e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -808,6 +811,9 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="character.hpp">
+      <Filter>Header Files\Character</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
